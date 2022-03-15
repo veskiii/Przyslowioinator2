@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/randomPrzyslowieFragment">
+
+    <fragment
+        android:id="@+id/randomPrzyslowieFragment"
+        android:name="com.example.przyslowioinator2.fragments.RandomPrzyslowieFragment"
+        android:label="random_przyslowie_fragment"
+        tools:layout="@layout/fragment_random_przyslowie" />
+
+    <fragment
+        android:id="@+id/listContainerFragment"
+        android:name="com.example.przyslowioinator2.fragments.ListContainerFragment"
+        android:label="list_container_fragment"
+        tools:layout="@layout/fragment_list_container"/>
+</navigation>
